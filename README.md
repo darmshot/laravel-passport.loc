@@ -1,18 +1,25 @@
-mkdir laravel-passport.loc; cd /laravel-passport.loc
+## Setup
 
-https://github.com/darmshot/laravel-passport.loc.git .
+* Execute commands
 
-composer install
+`mkdir laravel-passport.loc; cd /laravel-passport.loc`
 
-php artisan key:generate
+`git clone https://github.com/darmshot/laravel-passport.loc.git .`
 
-Rename .env.example to .env
+`composer install`
 
-Set db config
+`php artisan key:generate`
 
-Execute command
+* Rename .env.example to .env
 
-php artisan migrate
+* Set db config
+
+* Execute command
+
+
+`php artisan migrate`
+
+
 
 
 
