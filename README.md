@@ -2,13 +2,21 @@
 
 * Execute commands
 
-`mkdir laravel-passport.loc; cd /laravel-passport.loc`
+```bash
+mkdir laravel-passport.loc; cd /laravel-passport.loc
+```
 
-`git clone https://github.com/darmshot/laravel-passport.loc.git .`
+```bash
+git clone https://github.com/darmshot/laravel-passport.loc.git .
+```
 
-`composer install`
+```bash
+composer install
+```
 
-`php artisan key:generate`
+```bash
+php artisan key:generate
+```
 
 * Rename .env.example to .env
 
@@ -17,7 +25,9 @@
 * Execute command
 
 
-`php artisan migrate`
+```bash
+php artisan migrate
+```
 
 
 
